@@ -6,7 +6,7 @@ option.add_argument("-incognito")
 #option.add_argument("disable-gpu")
 browser = webdriver.Chrome(options=option)
 
-browser.get("https://forms.gle/FoAoauz53Xy7A4n68")
+browser.get("https://docs.google.com/forms/d/e/1FAIpQLSf9uFNd5Jnb5Av_97aD9-PU_7P9ElbSz_8k6F8xKC57WTcoFw/viewform")
 
 textboxes = browser.find_elements_by_class_name("quantumWizTextinputPaperinputInput")
 radiobuttons = browser.find_elements_by_class_name("docssharedWizToggleLabeledLabelWrapper")
